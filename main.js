@@ -20,4 +20,5 @@
         lesson_btn.push(lesson_li[i].querySelector(".lesson_center_a .study"));
     }
     console.log(lesson_btn);
+    lesson_btn[0].click();
 })();
