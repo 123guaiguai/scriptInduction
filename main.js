@@ -17,7 +17,7 @@
     //console.log(lesson_li);
     let lesson_btn=[];
     for(let i=0;i<lesson_li.length;i++){
-        lesson_btn.push(lesson_li[i].querySelector(".lesson_center_a").firstChild);
+        lesson_btn.push(lesson_li[i].querySelector(".lesson_center_a .study"));
     }
     console.log(lesson_btn);
 })();
