@@ -13,11 +13,11 @@
 
 (function () {
     'use strict';
-    let lesson_li=document.querySelector(".w1150").querySelector(".lesson_center_ul").getElementsByTagName("li");
+    let lesson_li=document.querySelector(".wrap .w1150 .lesson_center_ul .lesson_c_ul").querySelectorAll("li");
     console.log(lesson_li);
-    let lesson_btn=lesson_li.map((item)=>{
-        return item.querySelector(".lesson_center_a").getElementsByTagName("a")[0];
-    })
-    console.log(lesson_btn);
+    // let lesson_btn=lesson_li.map((item)=>{
+    //     return item.querySelector(".lesson_center_a").getElementsByTagName("a")[0];
+    // })
+    // console.log(lesson_btn);
     // Your code here...
 })();
